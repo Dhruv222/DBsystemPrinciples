@@ -1,0 +1,48 @@
+Article Entry
+	MDate: 2011-01-11
+	Key: journals/acta/Saxena96
+	Author: Sanjeev Saxena
+	Title: Parallel Integer Sorting and Simulation Amongst CRCW Models.
+	Pages: 607-619
+	Year: 1996
+	Volume: 33
+	Number: 7
+	URL: db/journals/acta/acta33.html#Saxena96
+	EE: http://dx.doi.org/10.1007/BF03036466
+Article Entry
+	MDate: 2016-07-13
+	Key: journals/acta/Simon83
+	Author: Hans Ulrich Simon
+	Title: Pattern Matching in Trees and Nets.
+	Pages: 227-248
+	Year: 1983
+	Volume: 20
+	Number: 7
+	URL: db/journals/acta/acta20.html#Simon83
+	EE: http://dx.doi.org/10.1007/BF01257084
+Article Entry
+	MDate: 2011-01-11
+	Key: journals/acta/GoodmanS83
+	Author: Oded Shmueli
+	Title: NP-complete Problems Simplified on Tree Schemas.
+	Pages: 171-178
+	Year: 1983
+	Volume: 20
+	Number: 7
+	URL: db/journals/acta/acta20.html#GoodmanS83
+	EE: http://dx.doi.org/10.1007/BF00289414
+Article Entry
+	MDate: 2011-01-11
+	Key: journals/acta/Blum82
+	Author: Norbert Blum
+	Title: On the Power of Chain Rules in Context Free Grammars.
+	Pages: 425-433
+	Year: 1982
+	Volume: 17
+	Number: 7
+	URL: db/journals/acta/acta17.html#Blum82
+	EE: http://dx.doi.org/10.1007/BF00264161
+Article Entry
+	MDate: 2013-11-28
+	Key: journals/acta/Schonhage77
+	Author: 
