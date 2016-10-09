@@ -9,7 +9,7 @@ cursor = conn.cursor()
 
 def createTables():
 	createAuthor = "Create Table author( name varchar(255), authid int);"
-	createPublications = "Create Table publication( pubid int, pubkey varchar(255), title varchar(255), year int, type varchar(255), lowest_pages int, highest_pages int);"
+	createPublications = "Create Table publication( pubid int, pubkey varchar(255), title varchar(500), year int, type varchar(255), lowest_pages int, highest_pages int);"
 	createArticles = "Create Table article(pubid int, journal varchar(255), volume varchar(255), number varchar(255));"
 	createBooks = "Create Table book(pubid int, publisher varchar(255), isbn varchar(255));"
 	createIncollection = "Create Table incollection(pubid int, booktitle varchar(255), publisher varchar(255), isbn varchar(255));"
@@ -36,7 +36,7 @@ def CheckAuthor(author):
 def CheckPub(pubkey):
 	query = "Select pubid from publication where pubkey=%s;"
 	args = [pubkey]
-	cursor.execute(query)
+	cursor.execute(query, args)
 	return cursor.fetchall()[0][0]
 
 def getMaxAuthid():
@@ -63,7 +63,7 @@ def addAuthor(author):
 		query = "Insert into author VALUES (%s,%s);"
 		args = [unicode(author), str(newAuthid)]
 		try:
-			print query
+			print query, args
 			cursor.execute(query, args)
 			return str(newAuthid)
 		except:
@@ -77,6 +77,7 @@ def addArticle(pub, pubid):
 	query = "Insert into article VALUES (%s,%s,%s);"
 	args = [str(pubid),pub["journal"],pub["volume"]]
 	try:
+		print query,args
 		cursor.execute(query, args)
 	except:
 		print "Could not add Article!"
@@ -86,7 +87,7 @@ def addArticle(pub, pubid):
 def addInproceeding(pub, pubid):
 	query = "Insert into inproceedings VALUES (%s,%s);"
 	args = [str(pubid), pub["booktitle"]]
-	print query
+	print query, args
 	try:
 		cursor.execute(query, args)
 	except:
@@ -97,7 +98,7 @@ def addInproceeding(pub, pubid):
 def addIncollection(pub, pubid):
 	query = "Insert into incollection VALUES (%s,%s,%s,%s);"
 	args = [str(pubid), pub["booktitle"], pub["publisher"], pub["isbn"]]
-	print query
+	print query, args
 	try:
 		cursor.execute(query, args)
 	except:
@@ -108,7 +109,7 @@ def addIncollection(pub, pubid):
 def addBooks(pub, pubid):
 	query = "Insert into book VALUES (%s, %s, %s);"
 	args = [str(pubid), pub["publisher"], pub["isbn"]]
-	print query
+	print query, args
 	try:
 		cursor.execute(query, args)
 	except:
@@ -120,7 +121,7 @@ def addPubAuth(pubid, authid):
 	print authid
 	query = "Insert into pubauth VALUES (%s, %s);"
 	args = [str(pubid), authid]
-	print query
+	print query, args
 	try:
 		cursor.execute(query, args)
 	except:
@@ -148,7 +149,7 @@ def addPublication(pub, count, type):
 		conn.commit()
 
 	try:
-		print query
+		print query, args
 		cursor.execute(query, args)
 	except:
 		print "Publication Insert Failed!"

@@ -296,10 +296,23 @@ class docHandler(xml.sax.ContentHandler):
         elif name == "pages":
             self.inpages = False
             print self.pages
-            if (self.pages.find("-") >-1):
-                self.lowest_pages = self.pages.split("-")[0]
-                self.highest_pages = self.pages.split("-")[1]
-            else:
+            indexof = self.pages.find("-")
+            if ( indexof > -1):
+                if indexof != len(self.pages)-1:
+                    if self.pages.split("-")[0].isdigit():
+                        self.lowest_pages = self.pages.split("-")[0]
+                        self.highest_pages = self.pages.split("-")[1]
+                    else:
+                        try:
+                            self.lowest_pages = roman.fromRoman(self.pages.split("-")[0].upper())
+                            self.highest_pages = roman.fromRoman(self.pages.split("-")[1].upper())
+                        except:
+                            self.lowest_pages = 0
+                            self.highest_pages = 0
+                else:
+                    self.lowest_pages = self.pages[:-1]
+                    self.highest_pages = self.pages[:-1]
+            elif self.pages.isdigit():
                 self.lowest_pages = self.pages
                 self.highest_pages = self.pages
         elif name == "year":
