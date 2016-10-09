@@ -1,5 +1,5 @@
 import xml.sax
-
+import postgresConnect as pg
 
 
 #Format for WWW
@@ -35,9 +35,8 @@ class docHandler(xml.sax.ContentHandler):
     def startElement(self, name, attrs):
         if name == "article" or name == "proceedings" or name == "inproceedings" or name == "book" or name == "incollection":
             self.count += 1
-            if self.count == 500:
+            if self.count == 50000:
                 exit()
-            self.mdate = attrs.get('mdate',"")
             self.key = attrs.get('key', "")
             self.authorArray = []
             self.title = ""
@@ -158,7 +157,6 @@ class docHandler(xml.sax.ContentHandler):
             </article>
             '''
             print "Article", self.count
-            print "\tMdate:", self.mdate
             print "\tKEY:", self.key
             print "\tAuthor:", self.PrintAuthors()
             print "\tTitle:", self.title
@@ -166,51 +164,22 @@ class docHandler(xml.sax.ContentHandler):
             print "\tYear:", self.year
             print "\tVolume:", self.volume
             print "\tNumber:", self.number
-            print "\tURL:", self.url
-            print "\tEE:", self.ee
+            print "\tLowerPages:", self.lowest_pages
+            print "\thigher pages:", self.highest_pages
+            pub = {}
+            pub["author"] = self.authorArray
+            pub["pubkey"] = self.key
+            pub["title"] = self.title
+            pub["year"] = self.year
+            pub["lowest_pages"] = self.lowest_pages
+            pub["highest_pages"] = self.highest_pages
+            pub["journal"] = self.journal
+            pub["volume"] = self.volume
+            pub["number"] = self.number
+            pg.addPublication(pub, self.count, "article")
+            
 
-        elif name == "proceedings":
-            #Format for Proceeding
-            '''
-            <proceedings mdate="2011-12-29" key="tr/trier/MI99-17" publtype="informal publication">
-            <editor>Dieter Baum</editor>
-            <editor>Norbert Th. M&uuml;ller</editor>
-            <editor>Richard R&ouml;dler</editor>
-            <title>MMB '99, Messung, Modellierung und Bewertung von Rechen- und Kommunikationssystemen, 10. GI/NTG-F
-            achtagung, 22.-24. September 1999, Trier, Kurzbeitr&auml;ge und Toolbeschreibungen</title>
-            <booktitle>MMB (Kurzvortr&auml;ge)</booktitle>
-            <series>Universit&auml;t Trier, Mathematik/Informatik, Forschungsbericht</series>
-            <volume>99-16</volume>
-            <year>1999</year>
-            <url>db/conf/mmb/mmb99k.html</url>
-            </proceedings>
-            '''
-            print "Proceedings", self.count
-            print "\tMdate:", self.mdate
-            print "\tKEY:", self.key
-            print "\tAuthor:", self.PrintAuthors()
-            print "\tTitle:", self.title
-            print "\tBook Title:", self.booktitle
-            print "\tSeries:", self.series
-            print "\tYear:", self.year
-            print "\tVolume:", self.volume
-            print "\tURL:", self.url
-
-        elif name == "inproceedings" or name == "incollection":
-            #Format for Inproceeding
-            '''
-            <inproceedings mdate="2011-06-14" key="journals/lncs/Ludewig91">
-            <author>Petra Ludewig</author>
-            <title>Incremental Vocabulary Extensions in Text Understanding Systems.</title>
-            <pages>153-166</pages>
-            <year>1991</year>
-            <crossref>journals/lncs/1991-546</crossref>
-            <booktitle>Text Understanding in LILOG</booktitle>
-            <url>db/journals/lncs/lncs546.html#Ludewig91</url>
-            <ee>http://dx.doi.org/10.1007/3-540-54594-8_59</ee>
-            </inproceedings>
-            '''
-
+        elif name == "incollection":
             #Format for Incollection
             '''
             <incollection mdate="2011-06-14" key="journals/lncs/AtzeniCCT93">
@@ -227,18 +196,60 @@ class docHandler(xml.sax.ContentHandler):
             <ee>http://dx.doi.org/10.1007/BFb0021887</ee>
             </incollection>
             '''
-            print "Proceedings", self.count
-            print "\tMdate:", self.mdate
+            print "Incollection", self.count
             print "\tKEY:", self.key
             print "\tAuthor:", self.PrintAuthors()
             print "\tTitle:", self.title
             print "\tBook Title:", self.booktitle
-            print "\tSeries:", self.series
             print "\tYear:", self.year
             print "\tVolume:", self.volume
-            print "\tURL:", self.url
-            print "\tCrossref:", self.crossref
-            print "\tEE:", self.ee
+            print "\tLowerPages:", self.lowest_pages
+            print "\thigher pages:", self.highest_pages
+            pub = {}
+            pub["author"] = self.authorArray
+            pub["pubkey"] = self.key
+            pub["title"] = self.title
+            pub["year"] = self.type
+            pub["lowest_pages"] = self.lowest_pages
+            pub["highest_pages"] = self.highest_pages
+            pub["booktitle"] = self.booktitle
+            pub["publisher"] = self.publisher
+            pub["isbn"] = self.isbn
+            pg.addPublication(pub, self.count, "incollection")
+            
+
+        elif name == "inproceedings" or name == "proceedings":
+            #Format for Inproceeding
+            '''
+            <inproceedings mdate="2011-06-14" key="journals/lncs/Ludewig91">
+            <author>Petra Ludewig</author>
+            <title>Incremental Vocabulary Extensions in Text Understanding Systems.</title>
+            <pages>153-166</pages>
+            <year>1991</year>
+            <crossref>journals/lncs/1991-546</crossref>
+            <booktitle>Text Understanding in LILOG</booktitle>
+            <url>db/journals/lncs/lncs546.html#Ludewig91</url>
+            <ee>http://dx.doi.org/10.1007/3-540-54594-8_59</ee>
+            </inproceedings>
+            '''
+            print "Proceedings", self.count
+            print "\tKEY:", self.key
+            print "\tAuthor:", self.PrintAuthors()
+            print "\tTitle:", self.title
+            print "\tBook Title:", self.booktitle
+            print "\tYear:", self.year
+            print "\tLowerPages:", self.lowest_pages
+            print "\thigher pages:", self.highest_pages
+            pub = {}
+            pub["author"] = self.authorArray
+            pub["pubkey"] = self.key
+            pub["title"] = self.title
+            pub["year"] = self.type
+            pub["lowest_pages"] = self.lowest_pages
+            pub["highest_pages"] = self.highest_pages
+            pub["booktitle"] = self.booktitle
+            pg.addPublication(pub, self.count, "inproceedings")
+            
 
         elif name == "book":
             #Format for Book
@@ -257,49 +268,26 @@ class docHandler(xml.sax.ContentHandler):
             </book>
             '''
             print "Book", self.count
-            print "\tMdate:", self.mdate
             print "\tKEY:", self.key
             print "\tAuthor:", self.PrintAuthors()
             print "\tTitle:", self.title
-            print "\tBook Title:", self.booktitle
             print "\tYear:", self.year
             print "\tISBN:", self.isbn
-            print "\tSeries:", self.series
             print "\tPublisher:", self.publisher
-            print "\tURL:", self.url
+            print "\tLowerPages:", self.lowest_pages
+            print "\thigher pages:", self.highest_pages
+            pub = {}
+            pub["author"] = self.authorArray
+            pub["pubkey"] = self.key
+            pub["title"] = self.title
+            pub["year"] = self.type
+            pub["lowest_pages"] = self.lowest_pages
+            pub["highest_pages"] = self.highest_pages
+            pub["publisher"] = self.publisher
+            pub["isbn"] = self.isbn
+            pg.addPublication(pub, self.count, "incollection")
+            
 
-        elif name == "mastersthesis" or name == "phdthesis":
-            #Format for PHD Thesis
-            '''
-            <phdthesis mdate="2011-03-23" key="books/daglib/0071011">
-            <author>Jie-Ming J. Wang</author>
-            <title>Visual logic - a visual source code animation system for teaching computer science at school.</ti
-            tle>
-            <pages>I-XI, 1-169</pages>
-            <school>TH Darmstadt</school>
-            <year>1993</year>
-            </phdthesis>
-            '''
-
-            #Format for Masters Thesis
-            '''
-            <mastersthesis mdate="2006-04-06" key="ms/Vollmer2006">
-            <author>Stephan Vollmer</author>
-            <title>Portierung des DBLP-Systems auf ein relationales Datenbanksystem und Evaluation der Performance.<
-            /title>
-            <year>2006</year>
-            <school>Diplomarbeit, Universit&auml;t Trier, FB IV, Informatik</school>
-            <url>http://dbis.uni-trier.de/Diplomanden/Vollmer/vollmer.shtml</url>
-            </mastersthesis>
-            '''
-            print "Thesis"
-            print "\tMdate:", self.mdate
-            print "\tKEY:", self.key
-            print "\tAuthor:", self.PrintAuthors()
-            print "\tTitle:", self.title
-            print "\tYear:", self.year
-            print "\tSchool:", self.school
-            print "\tURL:", self.url
         elif name == "author":
             self.inauthor = False
             self.authorArray.append(self.author)
@@ -307,6 +295,13 @@ class docHandler(xml.sax.ContentHandler):
             self.intitle = False
         elif name == "pages":
             self.inpages = False
+            print self.pages
+            if (self.pages.find("-") >-1):
+                self.lowest_pages = self.pages.split("-")[0]
+                self.highest_pages = self.pages.split("-")[1]
+            else:
+                self.lowest_pages = self.pages
+                self.highest_pages = self.pages
         elif name == "year":
             self.inyear = False
         elif name == "volume":
@@ -315,16 +310,8 @@ class docHandler(xml.sax.ContentHandler):
             self.injournal = False
         elif name == "number":
             self.innumber = False
-        elif name == "url":
-            self.inurl = False
-        elif name == "ee":
-            self.inee = False
-        elif name == "crossref":
-            self.incrossref = False
         elif name == "booktitle":
             self.inbooktitle = False
-        elif name == "series":
-            self.inseries = False
         elif name == "isbn":
             self.inisbn = False
         elif name == "publisher":
