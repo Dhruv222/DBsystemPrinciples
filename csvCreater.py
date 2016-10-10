@@ -1,5 +1,6 @@
+from __future__ import unicode_literals	
 import parserSAX as parser
-from __future__ import unicode_literals
+
 
 authorFile = open("author.csv", "w")
 for key in parser.AuthorDict.keys():
