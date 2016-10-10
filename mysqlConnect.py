@@ -1,6 +1,6 @@
 import mysql.connector as connector
 
-conn = connector(user="root", host="127.0.0.1", password = "CZ4031", database="cz4031")
+conn = connector.connect(user="root", password = "CZ4031", host="127.0.0.1", database="cz4031")
 
 cursor = conn.cursor()
 
@@ -30,5 +30,24 @@ def dropTables():
 	cursor.execute("DROP TABLE IF EXISTS Inproceedings;")
 	cursor.execute("DROP TABLE IF EXISTS Book;")
 
+def loadFiles():
+	authorLoad = "LOAD DATA LOCAL INFILE \'author.csv\' INTO TABLE author FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	pubAuthLoad = "LOAD DATA LOCAL INFILE \'pubauth.csv\' INTO TABLE pubauth FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	publicationLoad = "LOAD DATA LOCAL INFILE \'publication.csv\' INTO TABLE publication FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	articleLoad = "LOAD DATA LOCAL INFILE \'article.csv\' INTO TABLE article FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	bookLoad = "LOAD DATA LOCAL INFILE \'book.csv\' INTO TABLE book FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	inproceedingsLoad = "LOAD DATA LOCAL INFILE \'inproceedings.csv\' INTO TABLE inproceedings FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+	incollectionLoad = "LOAD DATA LOCAL INFILE \'incollection.csv\' INTO TABLE incollection FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
+
+	cursor.execute(authorLoad)
+	cursor.execute(pubAuthLoad)
+	cursor.execute(publicationLoad)
+	cursor.execute(articleLoad)
+	cursor.execute(bookLoad)
+	cursor.execute(inproceedingsLoad)
+	cursor.execute(incollectionLoad)
+
 dropTables()
 createTables()
+conn.commit()
+conn.close()
