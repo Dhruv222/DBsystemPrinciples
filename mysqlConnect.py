@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import mysql.connector as connector
 
 conn = connector.connect(user="root", password = "CZ4031", host="127.0.0.1", database="cz4031")
@@ -49,5 +51,6 @@ def loadFiles():
 
 dropTables()
 createTables()
+loadFiles()
 conn.commit()
 conn.close()
