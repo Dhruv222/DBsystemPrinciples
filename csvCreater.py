@@ -3,14 +3,14 @@ import parserSAX as parser
 
 authorFile = open("author.csv", "w")
 for key in parser.AuthorDict.keys():
-	line = "{0},{1}\n".format(key, parser.AuthorDict['key'])
+	line = "{0},{1}\n".format(key, parser.AuthorDict[key])
 	authorFile.write(line)
 authorFile.close()
 
 
 pubauthFile = open("pubauth.csv", "w")
 for key in parser.PubAuthDict.keys():
-	line = "{0},{1}\n".format(key,parser.PubAuthDict['key'])
+	line = "{0},{1}\n".format(key,parser.PubAuthDict[key])
 	pubauthFile.write(line)
 pubauthFile.close()
 

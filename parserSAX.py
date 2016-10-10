@@ -27,6 +27,8 @@ class docHandler(xml.sax.ContentHandler):
     def startElement(self, name, attrs):
         if name == "article" or name == "proceedings" or name == "inproceedings" or name == "book" or name == "incollection":
             self.pubCount += 1
+            if self.pubCount == 100000:
+                return
             print(self.pubCount)
             self.key = attrs.get('key', "")
             self.authorArray = []
