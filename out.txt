@@ -1,0 +1,1300 @@
+607-619
+Article 1
+	KEY: journals/acta/Saxena96
+	Author: ['Sanjeev Saxena']
+	Title: Parallel Integer Sorting and Simulation Amongst CRCW Models.
+	Pages: 607-619
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 607
+	higher pages: 619
+227-248
+Article 2
+	KEY: journals/acta/Simon83
+	Author: ['Hans Ulrich Simon']
+	Title: Pattern Matching in Trees and Nets.
+	Pages: 227-248
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 227
+	higher pages: 248
+171-178
+Article 3
+	KEY: journals/acta/GoodmanS83
+	Author: ['Nathan Goodman', 'Oded Shmueli']
+	Title: NP-complete Problems Simplified on Tree Schemas.
+	Pages: 171-178
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 171
+	higher pages: 178
+425-433
+Article 4
+	KEY: journals/acta/Blum82
+	Author: ['Norbert Blum']
+	Title: On the Power of Chain Rules in Context Free Grammars.
+	Pages: 425-433
+	Year: 1982
+	Volume: 17
+	Number: 
+	LowerPages: 425
+	higher pages: 433
+395-398
+Article 5
+	KEY: journals/acta/Schonhage77
+	Author: ['Arnold Schönhage']
+	Title: Schnelle Multiplikation von Polynomen über Körpern der Charakteristik 2.
+	Pages: 395-398
+	Year: 1977
+	Volume: 7
+	Number: 
+	LowerPages: 395
+	higher pages: 398
+19-24
+Article 6
+	KEY: journals/acta/Honkala11
+	Author: ['Juha Honkala']
+	Title: A characterization of rational D0L power series.
+	Pages: 19-24
+	Year: 2011
+	Volume: 48
+	Number: 
+	LowerPages: 19
+	higher pages: 24
+595-632
+Article 7
+	KEY: journals/acta/HuangL87
+	Author: ['Chua-Huang Huang', 'Christian Lengauer']
+	Title: The Derivation of Systolic Implementations of Programs.
+	Pages: 595-632
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 595
+	higher pages: 632
+15-36
+Article 8
+	KEY: journals/acta/FinkelC87
+	Author: ['Alain Finkel', 'Annie Choquet']
+	Title: Fifo Nets Without Order Deadlock.
+	Pages: 15-36
+	Year: 1988
+	Volume: 25
+	Number: 
+	LowerPages: 15
+	higher pages: 36
+297-305
+Article 9
+	KEY: journals/acta/Biskup78
+	Author: ['Joachim Biskup']
+	Title: On the Complementation Rule for Multivalued Dependencies in Database Relations.
+	Pages: 297-305
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 297
+	higher pages: 305
+29-52
+Article 10
+	KEY: journals/acta/BozapalidisFR12
+	Author: ['Symeon Bozapalidis', 'Zoltán Fülöp 0001', 'George Rahonis']
+	Title: Equational weighted tree transformations.
+	Pages: 29-52
+	Year: 2012
+	Volume: 49
+	Number: 
+	LowerPages: 29
+	higher pages: 52
+307-330
+Article 11
+	KEY: journals/acta/KhomenkoKKV06
+	Author: ['Victor Khomenko', 'Alex Kondratyev', 'Maciej Koutny', 'Walter Vogler']
+	Title: Merged processes: a new condensed representation of Petri net behaviour.
+	Pages: 307-330
+	Year: 2006
+	Volume: 43
+	Number: 
+	LowerPages: 307
+	higher pages: 330
+199-228
+Article 12
+	KEY: journals/acta/Hesselink13
+	Author: ['Wim H. Hesselink']
+	Title: Verifying a simplification of mutual exclusion by Lycklama-Hadzilacos.
+	Pages: 199-228
+	Year: 2013
+	Volume: 50
+	Number: 
+	LowerPages: 199
+	higher pages: 228
+197-206
+Article 13
+	KEY: journals/acta/Ronse83
+	Author: ['Christian Ronse']
+	Title: A Three-Stage Construction for Multiconnection Networks.
+	Pages: 197-206
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 197
+	higher pages: 206
+447-452
+Article 14
+	KEY: journals/acta/CritchlowP91
+	Author: ['Carol Critchlow', 'Prakash Panangaden']
+	Title: The Expressive Power of Delay Operators in SCCS.
+	Pages: 447-452
+	Year: 1991
+	Volume: 28
+	Number: 
+	LowerPages: 447
+	higher pages: 452
+707-737
+Article 15
+	KEY: journals/acta/Milner96
+	Author: ['Robin Milner']
+	Title: Calculi for Interaction.
+	Pages: 707-737
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 707
+	higher pages: 737
+1-30
+Article 16
+	KEY: journals/acta/Darlington78
+	Author: ['John Darlington']
+	Title: A Synthesis of Several Sorting Algorithms.
+	Pages: 1-30
+	Year: 1978
+	Volume: 11
+	Number: 
+	LowerPages: 1
+	higher pages: 30
+255-266
+Article 17
+	KEY: journals/acta/CalzarossaIS86
+	Author: ['Maria Calzarossa', 'M. Italiani', 'Giuseppe Serazzi']
+	Title: A Workload Model Representative of Static and Dynamic Characteristics.
+	Pages: 255-266
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 255
+	higher pages: 266
+793-811
+Article 18
+	KEY: journals/acta/Vajnovszki02
+	Author: ['Vincent Vajnovszki']
+	Title: Gray visiting Motzkins.
+	Pages: 793-811
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 793
+	higher pages: 811
+499-552
+Article 19
+	KEY: journals/acta/VoglerS014
+	Author: ['Walter Vogler', 'Christian Stahl', 'Richard Müller 0001']
+	Title: Trace- and failure-based semantics for responsiveness.
+	Pages: 499-552
+	Year: 2014
+	Volume: 51
+	Number: 
+	LowerPages: 499
+	higher pages: 552
+277-298
+Article 20
+	KEY: journals/acta/Devroye87
+	Author: ['Luc Devroye']
+	Title: Branching Processes in the Analysis of the Heights of Trees.
+	Pages: 277-298
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 277
+	higher pages: 298
+307-310
+Article 21
+	KEY: journals/acta/HuT72
+	Author: ['T. C. Hu', 'K. C. Tan']
+	Title: Least Upper Bound on the Cost of Optimum Binary Search Trees.
+	Pages: 307-310
+	Year: 1972
+	Volume: 1
+	Number: 
+	LowerPages: 307
+	higher pages: 310
+187-209
+Article 22
+	KEY: journals/acta/Franta76
+	Author: ['William R. Franta']
+	Title: The Mathematical Analysis of the Computer System Modeled as a Two Stage Cyclic Queue.
+	Pages: 187-209
+	Year: 1976
+	Volume: 6
+	Number: 
+	LowerPages: 187
+	higher pages: 209
+299-312
+Article 23
+	KEY: journals/acta/Kindler95
+	Author: ['Ekkart Kindler']
+	Title: Invariants, Composition, and Substitution.
+	Pages: 299-312
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 299
+	higher pages: 312
+545-565
+Article 24
+	KEY: journals/acta/Kouvatsos86
+	Author: ['Demetres D. Kouvatsos']
+	Title: Maximum Entropy and the  G/G/1/N  Queue.
+	Pages: 545-565
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 545
+	higher pages: 565
+761-803
+Article 25
+	KEY: journals/acta/GorlatchL00
+	Author: ['Sergei Gorlatch', 'Christian Lengauer']
+	Title: Abstraction and Performance in the Design of Parallel Programs: An Overview of the SAT Approach.
+	Pages: 761-803
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 761
+	higher pages: 803
+87-137
+Article 26
+	KEY: journals/acta/Meyer09
+	Author: ['Roland Meyer']
+	Title: A theory of structural stationarity in the pi -Calculus.
+	Pages: 87-137
+	Year: 2009
+	Volume: 46
+	Number: 
+	LowerPages: 87
+	higher pages: 137
+167-191
+Article 27
+	KEY: journals/acta/Reisch81
+	Author: ['Stefan Reisch']
+	Title: Hex ist PSPACE-vollständig.
+	Pages: 167-191
+	Year: 1981
+	Volume: 15
+	Number: 
+	LowerPages: 167
+	higher pages: 191
+913-926
+Article 28
+	KEY: journals/acta/Csuhaj-VarjuM00
+	Author: ['Erzsébet Csuhaj-Varjú', 'Victor Mitrana']
+	Title: Evolutionary Systems: A Language Generating Device Inspired by Evolving Communities of Cells.
+	Pages: 913-926
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 913
+	higher pages: 926
+279-320
+Article 29
+	KEY: journals/acta/Janicki08
+	Author: ['Ryszard Janicki']
+	Title: Relational structures model of concurrency.
+	Pages: 279-320
+	Year: 2008
+	Volume: 45
+	Number: 
+	LowerPages: 279
+	higher pages: 320
+113-123
+Article 30
+	KEY: journals/acta/Russell77
+	Author: ['Bruce Russell']
+	Title: On an Equivalence between Continuation and Stack Semantics.
+	Pages: 113-123
+	Year: 1977
+	Volume: 8
+	Number: 
+	LowerPages: 113
+	higher pages: 123
+265-283
+Article 31
+	KEY: journals/acta/EhrenfeuchtR74
+	Author: ['Andrzej Ehrenfeucht', 'Grzegorz Rozenberg']
+	Title: Nonterminals Versus Homomorphisms in Defining Languages for Some Classes of Rewriting Systems.
+	Pages: 265-283
+	Year: 1974
+	Volume: 3
+	Number: 
+	LowerPages: 265
+	higher pages: 283
+295-298
+Article 32
+	KEY: journals/acta/Kemp80
+	Author: ['Rainer Kemp']
+	Title: A Note on the Density of Inherently Ambiguous Context-free Languages.
+	Pages: 295-298
+	Year: 1980
+	Volume: 14
+	Number: 
+	LowerPages: 295
+	higher pages: 298
+643-655
+Article 33
+	KEY: journals/acta/HanI89
+	Author: ['Yijie Han', 'Yoshihide Igarashi']
+	Title: Time Lower Bounds for Parallel Sorting on a Mesh-Conected Processor Array.
+	Pages: 643-655
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 643
+	higher pages: 655
+559-576
+Article 34
+	KEY: journals/acta/AkyildizB89
+	Author: ['Ian F. Akyildiz', 'Horst von Brand']
+	Title: Computational Algorithms for Networks of Queues with Rejection Blocking.
+	Pages: 559-576
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 559
+	higher pages: 576
+415-458
+Article 35
+	KEY: journals/acta/ChenM95
+	Author: ['X. J. Chen', 'Carlo Montangero']
+	Title: Compositional Refinements in Multiple Blackboard Systems.
+	Pages: 415-458
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 415
+	higher pages: 458
+3-4
+Article 36
+	KEY: journals/acta/GlabbeekGO15
+	Author: ['Rob J. van Glabbeek', 'Ursula Goltz', 'Ernst-Rüdiger Olderog']
+	Title: Special issue on "Combining Compositionality and Concurrency": part 1.
+	Pages: 3-4
+	Year: 2015
+	Volume: 52
+	Number: 
+	LowerPages: 3
+	higher pages: 4
+531-564
+Article 37
+	KEY: journals/acta/Santone02
+	Author: ['Antonella Santone']
+	Title: Automatic verification of concurrent systems using a formula-based compositional approach.
+	Pages: 531-564
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 531
+	higher pages: 564
+229-243
+Article 38
+	KEY: journals/acta/Hehner78
+	Author: ['Eric C. R. Hehner']
+	Title: On Removing the Machine from the Language.
+	Pages: 229-243
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 229
+	higher pages: 243
+379-395
+Article 39
+	KEY: journals/acta/ChungES85
+	Author: ['Moon-Jung Chung', 'Michael Evangelist', 'Ivan Hal Sudborough']
+	Title: Complete Problems for Space Bounded Subclasses of NP.
+	Pages: 379-395
+	Year: 1985
+	Volume: 22
+	Number: 
+	LowerPages: 379
+	higher pages: 395
+165-192
+Article 40
+	KEY: journals/acta/BulychevDLL14
+	Author: ['Peter E. Bulychev', 'Alexandre David', 'Kim G. Larsen', 'Guangyuan Li']
+	Title: 607-619
+Article 1
+	KEY: journals/acta/Saxena96
+	Author: ['Sanjeev Saxena']
+	Title: Parallel Integer Sorting and Simulation Amongst CRCW Models.
+	Pages: 607-619
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 607
+	higher pages: 619
+227-248
+Article 2
+	KEY: journals/acta/Simon83
+	Author: ['Hans Ulrich Simon']
+	Title: Pattern Matching in Trees and Nets.
+	Pages: 227-248
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 227
+	higher pages: 248
+171-178
+Article 3
+	KEY: journals/acta/GoodmanS83
+	Author: ['Nathan Goodman', 'Oded Shmueli']
+	Title: NP-complete Problems Simplified on Tree Schemas.
+	Pages: 171-178
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 171
+	higher pages: 178
+425-433
+Article 4
+	KEY: journals/acta/Blum82
+	Author: ['Norbert Blum']
+	Title: On the Power of Chain Rules in Context Free Grammars.
+	Pages: 425-433
+	Year: 1982
+	Volume: 17
+	Number: 
+	LowerPages: 425
+	higher pages: 433
+395-398
+Article 5
+	KEY: journals/acta/Schonhage77
+	Author: ['Arnold Schönhage']
+	Title: Schnelle Multiplikation von Polynomen über Körpern der Charakteristik 2.
+	Pages: 395-398
+	Year: 1977
+	Volume: 7
+	Number: 
+	LowerPages: 395
+	higher pages: 398
+19-24
+Article 6
+	KEY: journals/acta/Honkala11
+	Author: ['Juha Honkala']
+	Title: A characterization of rational D0L power series.
+	Pages: 19-24
+	Year: 2011
+	Volume: 48
+	Number: 
+	LowerPages: 19
+	higher pages: 24
+595-632
+Article 7
+	KEY: journals/acta/HuangL87
+	Author: ['Chua-Huang Huang', 'Christian Lengauer']
+	Title: The Derivation of Systolic Implementations of Programs.
+	Pages: 595-632
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 595
+	higher pages: 632
+15-36
+Article 8
+	KEY: journals/acta/FinkelC87
+	Author: ['Alain Finkel', 'Annie Choquet']
+	Title: Fifo Nets Without Order Deadlock.
+	Pages: 15-36
+	Year: 1988
+	Volume: 25
+	Number: 
+	LowerPages: 15
+	higher pages: 36
+297-305
+Article 9
+	KEY: journals/acta/Biskup78
+	Author: ['Joachim Biskup']
+	Title: On the Complementation Rule for Multivalued Dependencies in Database Relations.
+	Pages: 297-305
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 297
+	higher pages: 305
+29-52
+Article 10
+	KEY: journals/acta/BozapalidisFR12
+	Author: ['Symeon Bozapalidis', 'Zoltán Fülöp 0001', 'George Rahonis']
+	Title: Equational weighted tree transformations.
+	Pages: 29-52
+	Year: 2012
+	Volume: 49
+	Number: 
+	LowerPages: 29
+	higher pages: 52
+307-330
+Article 11
+	KEY: journals/acta/KhomenkoKKV06
+	Author: ['Victor Khomenko', 'Alex Kondratyev', 'Maciej Koutny', 'Walter Vogler']
+	Title: Merged processes: a new condensed representation of Petri net behaviour.
+	Pages: 307-330
+	Year: 2006
+	Volume: 43
+	Number: 
+	LowerPages: 307
+	higher pages: 330
+199-228
+Article 12
+	KEY: journals/acta/Hesselink13
+	Author: ['Wim H. Hesselink']
+	Title: Verifying a simplification of mutual exclusion by Lycklama-Hadzilacos.
+	Pages: 199-228
+	Year: 2013
+	Volume: 50
+	Number: 
+	LowerPages: 199
+	higher pages: 228
+197-206
+Article 13
+	KEY: journals/acta/Ronse83
+	Author: ['Christian Ronse']
+	Title: A Three-Stage Construction for Multiconnection Networks.
+	Pages: 197-206
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 197
+	higher pages: 206
+447-452
+Article 14
+	KEY: journals/acta/CritchlowP91
+	Author: ['Carol Critchlow', 'Prakash Panangaden']
+	Title: The Expressive Power of Delay Operators in SCCS.
+	Pages: 447-452
+	Year: 1991
+	Volume: 28
+	Number: 
+	LowerPages: 447
+	higher pages: 452
+707-737
+Article 15
+	KEY: journals/acta/Milner96
+	Author: ['Robin Milner']
+	Title: Calculi for Interaction.
+	Pages: 707-737
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 707
+	higher pages: 737
+1-30
+Article 16
+	KEY: journals/acta/Darlington78
+	Author: ['John Darlington']
+	Title: A Synthesis of Several Sorting Algorithms.
+	Pages: 1-30
+	Year: 1978
+	Volume: 11
+	Number: 
+	LowerPages: 1
+	higher pages: 30
+255-266
+Article 17
+	KEY: journals/acta/CalzarossaIS86
+	Author: ['Maria Calzarossa', 'M. Italiani', 'Giuseppe Serazzi']
+	Title: A Workload Model Representative of Static and Dynamic Characteristics.
+	Pages: 255-266
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 255
+	higher pages: 266
+793-811
+Article 18
+	KEY: journals/acta/Vajnovszki02
+	Author: ['Vincent Vajnovszki']
+	Title: Gray visiting Motzkins.
+	Pages: 793-811
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 793
+	higher pages: 811
+499-552
+Article 19
+	KEY: journals/acta/VoglerS014
+	Author: ['Walter Vogler', 'Christian Stahl', 'Richard Müller 0001']
+	Title: Trace- and failure-based semantics for responsiveness.
+	Pages: 499-552
+	Year: 2014
+	Volume: 51
+	Number: 
+	LowerPages: 499
+	higher pages: 552
+277-298
+Article 20
+	KEY: journals/acta/Devroye87
+	Author: ['Luc Devroye']
+	Title: Branching Processes in the Analysis of the Heights of Trees.
+	Pages: 277-298
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 277
+	higher pages: 298
+307-310
+Article 21
+	KEY: journals/acta/HuT72
+	Author: ['T. C. Hu', 'K. C. Tan']
+	Title: Least Upper Bound on the Cost of Optimum Binary Search Trees.
+	Pages: 307-310
+	Year: 1972
+	Volume: 1
+	Number: 
+	LowerPages: 307
+	higher pages: 310
+187-209
+Article 22
+	KEY: journals/acta/Franta76
+	Author: ['William R. Franta']
+	Title: The Mathematical Analysis of the Computer System Modeled as a Two Stage Cyclic Queue.
+	Pages: 187-209
+	Year: 1976
+	Volume: 6
+	Number: 
+	LowerPages: 187
+	higher pages: 209
+299-312
+Article 23
+	KEY: journals/acta/Kindler95
+	Author: ['Ekkart Kindler']
+	Title: Invariants, Composition, and Substitution.
+	Pages: 299-312
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 299
+	higher pages: 312
+545-565
+Article 24
+	KEY: journals/acta/Kouvatsos86
+	Author: ['Demetres D. Kouvatsos']
+	Title: Maximum Entropy and the  G/G/1/N  Queue.
+	Pages: 545-565
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 545
+	higher pages: 565
+761-803
+Article 25
+	KEY: journals/acta/GorlatchL00
+	Author: ['Sergei Gorlatch', 'Christian Lengauer']
+	Title: Abstraction and Performance in the Design of Parallel Programs: An Overview of the SAT Approach.
+	Pages: 761-803
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 761
+	higher pages: 803
+87-137
+Article 26
+	KEY: journals/acta/Meyer09
+	Author: ['Roland Meyer']
+	Title: A theory of structural stationarity in the pi -Calculus.
+	Pages: 87-137
+	Year: 2009
+	Volume: 46
+	Number: 
+	LowerPages: 87
+	higher pages: 137
+167-191
+Article 27
+	KEY: journals/acta/Reisch81
+	Author: ['Stefan Reisch']
+	Title: Hex ist PSPACE-vollständig.
+	Pages: 167-191
+	Year: 1981
+	Volume: 15
+	Number: 
+	LowerPages: 167
+	higher pages: 191
+913-926
+Article 28
+	KEY: journals/acta/Csuhaj-VarjuM00
+	Author: ['Erzsébet Csuhaj-Varjú', 'Victor Mitrana']
+	Title: Evolutionary Systems: A Language Generating Device Inspired by Evolving Communities of Cells.
+	Pages: 913-926
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 913
+	higher pages: 926
+279-320
+Article 29
+	KEY: journals/acta/Janicki08
+	Author: ['Ryszard Janicki']
+	Title: Relational structures model of concurrency.
+	Pages: 279-320
+	Year: 2008
+	Volume: 45
+	Number: 
+	LowerPages: 279
+	higher pages: 320
+113-123
+Article 30
+	KEY: journals/acta/Russell77
+	Author: ['Bruce Russell']
+	Title: On an Equivalence between Continuation and Stack Semantics.
+	Pages: 113-123
+	Year: 1977
+	Volume: 8
+	Number: 
+	LowerPages: 113
+	higher pages: 123
+265-283
+Article 31
+	KEY: journals/acta/EhrenfeuchtR74
+	Author: ['Andrzej Ehrenfeucht', 'Grzegorz Rozenberg']
+	Title: Nonterminals Versus Homomorphisms in Defining Languages for Some Classes of Rewriting Systems.
+	Pages: 265-283
+	Year: 1974
+	Volume: 3
+	Number: 
+	LowerPages: 265
+	higher pages: 283
+295-298
+Article 32
+	KEY: journals/acta/Kemp80
+	Author: ['Rainer Kemp']
+	Title: A Note on the Density of Inherently Ambiguous Context-free Languages.
+	Pages: 295-298
+	Year: 1980
+	Volume: 14
+	Number: 
+	LowerPages: 295
+	higher pages: 298
+643-655
+Article 33
+	KEY: journals/acta/HanI89
+	Author: ['Yijie Han', 'Yoshihide Igarashi']
+	Title: Time Lower Bounds for Parallel Sorting on a Mesh-Conected Processor Array.
+	Pages: 643-655
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 643
+	higher pages: 655
+559-576
+Article 34
+	KEY: journals/acta/AkyildizB89
+	Author: ['Ian F. Akyildiz', 'Horst von Brand']
+	Title: Computational Algorithms for Networks of Queues with Rejection Blocking.
+	Pages: 559-576
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 559
+	higher pages: 576
+415-458
+Article 35
+	KEY: journals/acta/ChenM95
+	Author: ['X. J. Chen', 'Carlo Montangero']
+	Title: Compositional Refinements in Multiple Blackboard Systems.
+	Pages: 415-458
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 415
+	higher pages: 458
+3-4
+Article 36
+	KEY: journals/acta/GlabbeekGO15
+	Author: ['Rob J. van Glabbeek', 'Ursula Goltz', 'Ernst-Rüdiger Olderog']
+	Title: Special issue on "Combining Compositionality and Concurrency": part 1.
+	Pages: 3-4
+	Year: 2015
+	Volume: 52
+	Number: 
+	LowerPages: 3
+	higher pages: 4
+531-564
+Article 37
+	KEY: journals/acta/Santone02
+	Author: ['Antonella Santone']
+	Title: Automatic verification of concurrent systems using a formula-based compositional approach.
+	Pages: 531-564
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 531
+	higher pages: 564
+229-243
+Article 38
+	KEY: journals/acta/Hehner78
+	Author: ['Eric C. R. Hehner']
+	Title: On Removing the Machine from the Language.
+	Pages: 229-243
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 229
+	higher pages: 243
+379-395
+Article 39
+	KEY: journals/acta/ChungES85
+	Author: ['Moon-Jung Chung', 'Michael Evangelist', 'Ivan Hal Sudborough']
+	Title: Complete Problems for Space Bounded Subclasses of NP.
+	Pages: 379-395
+	Year: 1985
+	Volume: 22
+	Number: 
+	LowerPages: 379
+	higher pages: 395
+165-192
+Article 40
+	KEY: journals/acta/BulychevDLL14
+	Author: ['Peter E. Bulychev', 'Alexandre David', 'Kim G. Larsen', 'Guangyuan Li']
+	Title: 607-619
+Article 1
+	KEY: journals/acta/Saxena96
+	Author: ['Sanjeev Saxena']
+	Title: Parallel Integer Sorting and Simulation Amongst CRCW Models.
+	Pages: 607-619
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 607
+	higher pages: 619
+227-248
+Article 2
+	KEY: journals/acta/Simon83
+	Author: ['Hans Ulrich Simon']
+	Title: Pattern Matching in Trees and Nets.
+	Pages: 227-248
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 227
+	higher pages: 248
+171-178
+Article 3
+	KEY: journals/acta/GoodmanS83
+	Author: ['Nathan Goodman', 'Oded Shmueli']
+	Title: NP-complete Problems Simplified on Tree Schemas.
+	Pages: 171-178
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 171
+	higher pages: 178
+425-433
+Article 4
+	KEY: journals/acta/Blum82
+	Author: ['Norbert Blum']
+	Title: On the Power of Chain Rules in Context Free Grammars.
+	Pages: 425-433
+	Year: 1982
+	Volume: 17
+	Number: 
+	LowerPages: 425
+	higher pages: 433
+395-398
+Article 5
+	KEY: journals/acta/Schonhage77
+	Author: ['Arnold Schönhage']
+	Title: Schnelle Multiplikation von Polynomen über Körpern der Charakteristik 2.
+	Pages: 395-398
+	Year: 1977
+	Volume: 7
+	Number: 
+	LowerPages: 395
+	higher pages: 398
+19-24
+Article 6
+	KEY: journals/acta/Honkala11
+	Author: ['Juha Honkala']
+	Title: A characterization of rational D0L power series.
+	Pages: 19-24
+	Year: 2011
+	Volume: 48
+	Number: 
+	LowerPages: 19
+	higher pages: 24
+595-632
+Article 7
+	KEY: journals/acta/HuangL87
+	Author: ['Chua-Huang Huang', 'Christian Lengauer']
+	Title: The Derivation of Systolic Implementations of Programs.
+	Pages: 595-632
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 595
+	higher pages: 632
+15-36
+Article 8
+	KEY: journals/acta/FinkelC87
+	Author: ['Alain Finkel', 'Annie Choquet']
+	Title: Fifo Nets Without Order Deadlock.
+	Pages: 15-36
+	Year: 1988
+	Volume: 25
+	Number: 
+	LowerPages: 15
+	higher pages: 36
+297-305
+Article 9
+	KEY: journals/acta/Biskup78
+	Author: ['Joachim Biskup']
+	Title: On the Complementation Rule for Multivalued Dependencies in Database Relations.
+	Pages: 297-305
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 297
+	higher pages: 305
+29-52
+Article 10
+	KEY: journals/acta/BozapalidisFR12
+	Author: ['Symeon Bozapalidis', 'Zoltán Fülöp 0001', 'George Rahonis']
+	Title: Equational weighted tree transformations.
+	Pages: 29-52
+	Year: 2012
+	Volume: 49
+	Number: 
+	LowerPages: 29
+	higher pages: 52
+307-330
+Article 11
+	KEY: journals/acta/KhomenkoKKV06
+	Author: ['Victor Khomenko', 'Alex Kondratyev', 'Maciej Koutny', 'Walter Vogler']
+	Title: Merged processes: a new condensed representation of Petri net behaviour.
+	Pages: 307-330
+	Year: 2006
+	Volume: 43
+	Number: 
+	LowerPages: 307
+	higher pages: 330
+199-228
+Article 12
+	KEY: journals/acta/Hesselink13
+	Author: ['Wim H. Hesselink']
+	Title: Verifying a simplification of mutual exclusion by Lycklama-Hadzilacos.
+	Pages: 199-228
+	Year: 2013
+	Volume: 50
+	Number: 
+	LowerPages: 199
+	higher pages: 228
+197-206
+Article 13
+	KEY: journals/acta/Ronse83
+	Author: ['Christian Ronse']
+	Title: A Three-Stage Construction for Multiconnection Networks.
+	Pages: 197-206
+	Year: 1983
+	Volume: 20
+	Number: 
+	LowerPages: 197
+	higher pages: 206
+447-452
+Article 14
+	KEY: journals/acta/CritchlowP91
+	Author: ['Carol Critchlow', 'Prakash Panangaden']
+	Title: The Expressive Power of Delay Operators in SCCS.
+	Pages: 447-452
+	Year: 1991
+	Volume: 28
+	Number: 
+	LowerPages: 447
+	higher pages: 452
+707-737
+Article 15
+	KEY: journals/acta/Milner96
+	Author: ['Robin Milner']
+	Title: Calculi for Interaction.
+	Pages: 707-737
+	Year: 1996
+	Volume: 33
+	Number: 
+	LowerPages: 707
+	higher pages: 737
+1-30
+Article 16
+	KEY: journals/acta/Darlington78
+	Author: ['John Darlington']
+	Title: A Synthesis of Several Sorting Algorithms.
+	Pages: 1-30
+	Year: 1978
+	Volume: 11
+	Number: 
+	LowerPages: 1
+	higher pages: 30
+255-266
+Article 17
+	KEY: journals/acta/CalzarossaIS86
+	Author: ['Maria Calzarossa', 'M. Italiani', 'Giuseppe Serazzi']
+	Title: A Workload Model Representative of Static and Dynamic Characteristics.
+	Pages: 255-266
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 255
+	higher pages: 266
+793-811
+Article 18
+	KEY: journals/acta/Vajnovszki02
+	Author: ['Vincent Vajnovszki']
+	Title: Gray visiting Motzkins.
+	Pages: 793-811
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 793
+	higher pages: 811
+499-552
+Article 19
+	KEY: journals/acta/VoglerS014
+	Author: ['Walter Vogler', 'Christian Stahl', 'Richard Müller 0001']
+	Title: Trace- and failure-based semantics for responsiveness.
+	Pages: 499-552
+	Year: 2014
+	Volume: 51
+	Number: 
+	LowerPages: 499
+	higher pages: 552
+277-298
+Article 20
+	KEY: journals/acta/Devroye87
+	Author: ['Luc Devroye']
+	Title: Branching Processes in the Analysis of the Heights of Trees.
+	Pages: 277-298
+	Year: 1987
+	Volume: 24
+	Number: 
+	LowerPages: 277
+	higher pages: 298
+307-310
+Article 21
+	KEY: journals/acta/HuT72
+	Author: ['T. C. Hu', 'K. C. Tan']
+	Title: Least Upper Bound on the Cost of Optimum Binary Search Trees.
+	Pages: 307-310
+	Year: 1972
+	Volume: 1
+	Number: 
+	LowerPages: 307
+	higher pages: 310
+187-209
+Article 22
+	KEY: journals/acta/Franta76
+	Author: ['William R. Franta']
+	Title: The Mathematical Analysis of the Computer System Modeled as a Two Stage Cyclic Queue.
+	Pages: 187-209
+	Year: 1976
+	Volume: 6
+	Number: 
+	LowerPages: 187
+	higher pages: 209
+299-312
+Article 23
+	KEY: journals/acta/Kindler95
+	Author: ['Ekkart Kindler']
+	Title: Invariants, Composition, and Substitution.
+	Pages: 299-312
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 299
+	higher pages: 312
+545-565
+Article 24
+	KEY: journals/acta/Kouvatsos86
+	Author: ['Demetres D. Kouvatsos']
+	Title: Maximum Entropy and the  G/G/1/N  Queue.
+	Pages: 545-565
+	Year: 1986
+	Volume: 23
+	Number: 
+	LowerPages: 545
+	higher pages: 565
+761-803
+Article 25
+	KEY: journals/acta/GorlatchL00
+	Author: ['Sergei Gorlatch', 'Christian Lengauer']
+	Title: Abstraction and Performance in the Design of Parallel Programs: An Overview of the SAT Approach.
+	Pages: 761-803
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 761
+	higher pages: 803
+87-137
+Article 26
+	KEY: journals/acta/Meyer09
+	Author: ['Roland Meyer']
+	Title: A theory of structural stationarity in the pi -Calculus.
+	Pages: 87-137
+	Year: 2009
+	Volume: 46
+	Number: 
+	LowerPages: 87
+	higher pages: 137
+167-191
+Article 27
+	KEY: journals/acta/Reisch81
+	Author: ['Stefan Reisch']
+	Title: Hex ist PSPACE-vollständig.
+	Pages: 167-191
+	Year: 1981
+	Volume: 15
+	Number: 
+	LowerPages: 167
+	higher pages: 191
+913-926
+Article 28
+	KEY: journals/acta/Csuhaj-VarjuM00
+	Author: ['Erzsébet Csuhaj-Varjú', 'Victor Mitrana']
+	Title: Evolutionary Systems: A Language Generating Device Inspired by Evolving Communities of Cells.
+	Pages: 913-926
+	Year: 2000
+	Volume: 36
+	Number: 
+	LowerPages: 913
+	higher pages: 926
+279-320
+Article 29
+	KEY: journals/acta/Janicki08
+	Author: ['Ryszard Janicki']
+	Title: Relational structures model of concurrency.
+	Pages: 279-320
+	Year: 2008
+	Volume: 45
+	Number: 
+	LowerPages: 279
+	higher pages: 320
+113-123
+Article 30
+	KEY: journals/acta/Russell77
+	Author: ['Bruce Russell']
+	Title: On an Equivalence between Continuation and Stack Semantics.
+	Pages: 113-123
+	Year: 1977
+	Volume: 8
+	Number: 
+	LowerPages: 113
+	higher pages: 123
+265-283
+Article 31
+	KEY: journals/acta/EhrenfeuchtR74
+	Author: ['Andrzej Ehrenfeucht', 'Grzegorz Rozenberg']
+	Title: Nonterminals Versus Homomorphisms in Defining Languages for Some Classes of Rewriting Systems.
+	Pages: 265-283
+	Year: 1974
+	Volume: 3
+	Number: 
+	LowerPages: 265
+	higher pages: 283
+295-298
+Article 32
+	KEY: journals/acta/Kemp80
+	Author: ['Rainer Kemp']
+	Title: A Note on the Density of Inherently Ambiguous Context-free Languages.
+	Pages: 295-298
+	Year: 1980
+	Volume: 14
+	Number: 
+	LowerPages: 295
+	higher pages: 298
+643-655
+Article 33
+	KEY: journals/acta/HanI89
+	Author: ['Yijie Han', 'Yoshihide Igarashi']
+	Title: Time Lower Bounds for Parallel Sorting on a Mesh-Conected Processor Array.
+	Pages: 643-655
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 643
+	higher pages: 655
+559-576
+Article 34
+	KEY: journals/acta/AkyildizB89
+	Author: ['Ian F. Akyildiz', 'Horst von Brand']
+	Title: Computational Algorithms for Networks of Queues with Rejection Blocking.
+	Pages: 559-576
+	Year: 1989
+	Volume: 26
+	Number: 
+	LowerPages: 559
+	higher pages: 576
+415-458
+Article 35
+	KEY: journals/acta/ChenM95
+	Author: ['X. J. Chen', 'Carlo Montangero']
+	Title: Compositional Refinements in Multiple Blackboard Systems.
+	Pages: 415-458
+	Year: 1995
+	Volume: 32
+	Number: 
+	LowerPages: 415
+	higher pages: 458
+3-4
+Article 36
+	KEY: journals/acta/GlabbeekGO15
+	Author: ['Rob J. van Glabbeek', 'Ursula Goltz', 'Ernst-Rüdiger Olderog']
+	Title: Special issue on "Combining Compositionality and Concurrency": part 1.
+	Pages: 3-4
+	Year: 2015
+	Volume: 52
+	Number: 
+	LowerPages: 3
+	higher pages: 4
+531-564
+Article 37
+	KEY: journals/acta/Santone02
+	Author: ['Antonella Santone']
+	Title: Automatic verification of concurrent systems using a formula-based compositional approach.
+	Pages: 531-564
+	Year: 2002
+	Volume: 38
+	Number: 
+	LowerPages: 531
+	higher pages: 564
+229-243
+Article 38
+	KEY: journals/acta/Hehner78
+	Author: ['Eric C. R. Hehner']
+	Title: On Removing the Machine from the Language.
+	Pages: 229-243
+	Year: 1978
+	Volume: 10
+	Number: 
+	LowerPages: 229
+	higher pages: 243
+379-395
+Article 39
+	KEY: journals/acta/ChungES85
+	Author: ['Moon-Jung Chung', 'Michael Evangelist', 'Ivan Hal Sudborough']
+	Title: Complete Problems for Space Bounded Subclasses of NP.
+	Pages: 379-395
+	Year: 1985
+	Volume: 22
+	Number: 
+	LowerPages: 379
+	higher pages: 395
+165-192
+Article 40
+	KEY: journals/acta/BulychevDLL14
+	Author: ['Peter E. Bulychev', 'Alexandre David', 'Kim G. Larsen', 'Guangyuan Li']
+	Title: 

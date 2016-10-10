@@ -37,7 +37,7 @@ def CheckPub(pubkey):
 	query = "Select pubid from publication where pubkey=%s;"
 	args = [pubkey]
 	cursor.execute(query, args)
-	return cursor.fetchall()[0][0]
+	return cursor.fetchall()
 
 def getMaxAuthid():
 	query = "Select max(authid) from author;"
@@ -131,29 +131,32 @@ def addPubAuth(pubid, authid):
 
 def addPublication(pub, count, type):
 	print pub
-	query = "Insert into publication VALUES (%s, %s, %s, %s, %s, %s, %s);"
-	args = [str(count), pub["pubkey"], pub["title"], pub["year"], pub["pubkey"].split("/")[0], pub["lowest_pages"], pub["highest_pages"]]
-	if type == "book":
-		addBooks(pub, count)
-	elif type == "inproceedings":
-		addInproceeding(pub, count)
-	elif type == "incollection":
-		addIncollection(pub, count)
-	elif type == "article":
-		addArticle(pub, count)
+	if not(CheckPub(pub["pubkey"])):
+		query = "Insert into publication VALUES (%s, %s, %s, %s, %s, %s, %s);"
+		args = [str(count), pub["pubkey"], pub["title"], pub["year"], pub["pubkey"].split("/")[0], pub["lowest_pages"], pub["highest_pages"]]
+		if type == "book":
+			addBooks(pub, count)
+		elif type == "inproceedings":
+			addInproceeding(pub, count)
+		elif type == "incollection":
+			addIncollection(pub, count)
+		elif type == "article":
+			addArticle(pub, count)
 
-	for author in pub["author"]:
-		print author
-		authorid = addAuthor(author)
-		addPubAuth(count,authorid)
-		conn.commit()
+		for author in pub["author"]:
+			print author
+			authorid = addAuthor(author)
+			addPubAuth(count,authorid)
+			conn.commit()
 
-	try:
-		print query, args
-		cursor.execute(query, args)
-	except:
-		print "Publication Insert Failed!"
-		exit()
+		try:
+			print query, args
+			cursor.execute(query, args)
+		except:
+			print "Publication Insert Failed!"
+			exit()
+	else:
+		print "Added already"
 
 
 if __name__  == "__main__":
