@@ -1,4 +1,5 @@
 import xml.sax
+from __future__ import unicode_literals
 
 AuthorDict = dict()
 PubAuthDict = dict()
