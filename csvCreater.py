@@ -18,7 +18,7 @@ pubauthFile.close()
 
 publicationFile = open("publication.csv", "w")
 for key in parser.publicationDict.keys():
-	line = "{0},\"{p[pubkey]}\",\"{p[title]}\",{p[year]},{p[lowest_pages]},{p[highest_pages]}\n".format(key, p=parser.publicationDict[key])
+	line = "{0},\"{p[pubkey]}\",\"{p[title]}\",{p[year]}\n".format(key, p=parser.publicationDict[key])
 	publicationFile.write(line)
 publicationFile.close()
 

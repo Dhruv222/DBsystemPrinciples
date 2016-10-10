@@ -49,9 +49,6 @@ class docHandler(xml.sax.ContentHandler):
         elif name == "title":
             self.intitle = True
             self.title = ""
-        elif name == "pages":
-            self.inpages = True
-            self.pages = ""
         elif name == "year":
             self.inyear = True
             self.year = ""
@@ -79,8 +76,6 @@ class docHandler(xml.sax.ContentHandler):
         pub['pubkey'] = self.key
         pub['title'] = self.title
         pub['year'] = self.year
-        pub['lowest_pages'] = self.lowest_pages
-        pub['highest_pages'] = self.highest_pages
         publicationDict[self.pubCount] = pub
         return
 
@@ -89,8 +84,6 @@ class docHandler(xml.sax.ContentHandler):
             self.author += ch
         elif self.intitle:
             self.title += ch
-        elif self.inpages:
-            self.pages += ch
         elif self.inyear:
             self.year += ch
         elif self.involume:
@@ -148,27 +141,6 @@ class docHandler(xml.sax.ContentHandler):
             
         elif name == "title":
             self.intitle = False
-        elif name == "pages":
-            self.inpages = False
-            indexof = self.pages.find("-")
-            if ( indexof > -1):
-                if indexof != len(self.pages)-1:
-                    if self.pages.split("-")[0].isdigit():
-                        self.lowest_pages = self.pages.split("-")[0]
-                        self.highest_pages = self.pages.split("-")[1]
-                    else:
-                        try:
-                            self.lowest_pages = roman.fromRoman(self.pages.split("-")[0].upper())
-                            self.highest_pages = roman.fromRoman(self.pages.split("-")[1].upper())
-                        except:
-                            self.lowest_pages = 0
-                            self.highest_pages = 0
-                else:
-                    self.lowest_pages = self.pages[:-1]
-                    self.highest_pages = self.pages[:-1]
-            elif self.pages.isdigit():
-                self.lowest_pages = self.pages
-                self.highest_pages = self.pages
         elif name == "year":
             self.inyear = False
         elif name == "volume":
