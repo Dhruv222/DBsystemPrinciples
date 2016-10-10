@@ -51,6 +51,8 @@ def loadFiles():
 
 dropTables()
 createTables()
+#cursor.execute("ALTER DATABASE cz4031 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;")
+#cursor.execute("ALTER TABLE publication CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;")
 loadFiles()
 conn.commit()
 conn.close()
