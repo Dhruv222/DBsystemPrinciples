@@ -52,13 +52,14 @@ def createTables():
 	cursor.execute(inproceedingsCreate)
 
 def dropTables():
-	cursor.execute("DROP TABLE IF EXISTS authors;")
 	cursor.execute("DROP TABLE IF EXISTS authored;")
-	cursor.execute("DROP TABLE IF EXISTS publication;")
+	cursor.execute("DROP TABLE IF EXISTS authors;")
 	cursor.execute("DROP TABLE IF EXISTS article;")
 	cursor.execute("DROP TABLE IF EXISTS incollection;")
 	cursor.execute("DROP TABLE IF EXISTS inproceeding;")
 	cursor.execute("DROP TABLE IF EXISTS book;")
+	cursor.execute("DROP TABLE IF EXISTS publication;")
+
 
 def loadFiles():
 	authorLoad = "LOAD DATA LOCAL INFILE \'author.csv\' INTO TABLE authors FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY \'\"\' LINES TERMINATED BY \'\n\';"
@@ -77,10 +78,41 @@ def loadFiles():
 	cursor.execute(inproceedingsLoad)
 	cursor.execute(incollectionLoad)
 
+def alterTables():
+	articleAlter = ("Alter Table article "
+					"Add Foreign Key(pubID) "
+					"REFERENCES publication(pubID) ON UPDATE CASCADE ON DELETE CASCADE;"
+					)
+	bookAlter = ("Alter Table book "
+					"Add Foreign Key(pubID) "
+					"REFERENCES publication(pubID) ON UPDATE CASCADE ON DELETE CASCADE;"
+					)
+	incollectionAlter = ("Alter Table incollection "
+					"Add Foreign Key(pubID) "
+					"REFERENCES publication(pubID) ON UPDATE CASCADE ON DELETE CASCADE;"
+					)
+	inproceedingAlter = ("Alter Table inproceeding "
+					"Add Foreign Key(pubID) "
+					"REFERENCES publication(pubID) ON UPDATE CASCADE ON DELETE CASCADE;"
+					)
+	authoredAlter = ("Alter Table authored "
+					"ADD Constraint pk_authoredID PRIMARY KEY(authID, pubID),"
+					"Add Foreign Key(pubID) "
+					"REFERENCES publication(pubID) ON UPDATE CASCADE ON DELETE CASCADE,"
+					"Add Foreign Key(authID) "
+					"REFERENCES authors(authID) ON UPDATE CASCADE ON DELETE CASCADE;"
+					)
+	cursor.execute(articleAlter)
+	cursor.execute(bookAlter)
+	cursor.execute(authoredAlter)
+	cursor.execute(inproceedingAlter)
+	cursor.execute(incollectionAlter)
+
 dropTables()
 createTables()
 #cursor.execute("ALTER DATABASE cz4031 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;")
 #cursor.execute("ALTER TABLE publication CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;")
+alterTables()
 loadFiles()
 conn.commit()
 conn.close()
