@@ -4,15 +4,16 @@ import parserSAX as parser
 
 authorFile = open("author.csv", "w")
 for key in parser.AuthorDict.keys():
-	line = "{0},{1}\n".format(key, parser.AuthorDict[key])
+	line = "{0},{1}\n".format(parser.AuthorDict[key], key)
 	authorFile.write(line)
 authorFile.close()
 
 
 pubauthFile = open("pubauth.csv", "w")
 for key in parser.PubAuthDict.keys():
-	line = "{0},{1}\n".format(key,parser.PubAuthDict[key])
-	pubauthFile.write(line)
+	for i in range(len(parser.PubAuthDict[key])):
+		line = "{0},{1}\n".format(parser.PubAuthDict[key][i], key)
+		pubauthFile.write(line)
 pubauthFile.close()
 
 

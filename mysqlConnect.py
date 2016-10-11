@@ -18,7 +18,7 @@ def createTables():
 					");")
 	publicationCreate = ("create table publication("
 						"pubID int not null Primary Key,"
-						"pubkey varchar(500) not null, Unique"
+						"pubkey varchar(500) not null Unique,"
 						"title varchar(750) Null,"
 						"year int null"
 						");")
@@ -107,12 +107,13 @@ def alterTables():
 	cursor.execute(authoredAlter)
 	cursor.execute(inproceedingAlter)
 	cursor.execute(incollectionAlter)
-
-dropTables()
-createTables()
-#cursor.execute("ALTER DATABASE cz4031 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;")
-#cursor.execute("ALTER TABLE publication CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;")
-alterTables()
-loadFiles()
-conn.commit()
-conn.close()
+if __name__ == "__main__":
+        dropTables()
+        createTables()
+        #cursor.execute("ALTER DATABASE cz4031 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci;")
+        #cursor.execute("ALTER TABLE publication CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;")
+        
+        loadFiles()
+        alterTables()
+        conn.commit()
+        conn.close()

@@ -32,6 +32,7 @@ class docHandler(xml.sax.ContentHandler):
             if self.pubCount == 100000:
                 return
             print(self.pubCount)
+            PubAuthDict[self.pubCount] = []
             self.key = attrs.get('key', "")
             self.authorArray = []
             self.title = ""
@@ -42,6 +43,7 @@ class docHandler(xml.sax.ContentHandler):
             self.series = ""
             self.publisher = ""
             self.isbn = ""
+            self.inpublication = True
 
         elif name == "author" or name == "editor":
             self.inauthor = True
@@ -105,6 +107,7 @@ class docHandler(xml.sax.ContentHandler):
             pub["volume"] = self.volume
             articleDict[self.pubCount] = pub
             self.UpdatePublicationDict()
+            self.inpublication = False
             
 
         elif name == "incollection":
@@ -114,14 +117,14 @@ class docHandler(xml.sax.ContentHandler):
             pub["isbn"] = self.isbn
             incollectionDict[self.pubCount] = pub
             self.UpdatePublicationDict()
-            
+            self.inpublication = False
 
         elif name == "inproceedings" or name == "proceedings":
             pub = {}
             pub["booktitle"] = self.booktitle
             inproceedingsDict[self.pubCount] = pub
             self.UpdatePublicationDict()
-            
+            self.inpublication = False
 
         elif name == "book":
             pub = {}
@@ -129,15 +132,15 @@ class docHandler(xml.sax.ContentHandler):
             pub["isbn"] = self.isbn
             bookDict[self.pubCount] = pub
             self.UpdatePublicationDict()
-            
+            self.inpublication = False
 
-        elif name == "author":
+        elif name == "author" and self.inpublication:
             self.inauthor = False
             if not(self.author in AuthorDict):
                 self.authorCount += 1
                 AuthorDict[self.author] = self.authorCount
             
-            PubAuthDict[self.pubCount] = AuthorDict[self.author]
+            PubAuthDict[self.pubCount].append(AuthorDict[self.author])
             
         elif name == "title":
             self.intitle = False
