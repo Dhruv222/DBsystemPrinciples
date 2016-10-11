@@ -8,7 +8,7 @@ for key in parser.AuthorDict.keys():
 	authorFile.write(line)
 authorFile.close()
 
-
+# Changes to make the Pub Auth table one to many relationship
 pubauthFile = open("pubauth.csv", "w")
 for key in parser.PubAuthDict.keys():
 	for i in range(len(parser.PubAuthDict[key])):
